@@ -1,0 +1,10 @@
+data/*
+!data/README.md
+results/
+*.Rout
+.Rhistory
+.RData
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
