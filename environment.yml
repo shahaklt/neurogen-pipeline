@@ -1,0 +1,28 @@
+name: neurogen-pipeline
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - r-base=4.3
+  - pandas
+  - numpy
+  - scipy
+  - pyyaml
+  - bioconductor-deseq2
+  - bioconductor-limma
+  - bioconductor-clusterprofiler
+  - bioconductor-org.hs.eg.db
+  - bioconductor-org.mm.eg.db
+  - r-dplyr
+  - r-tibble
+  - r-igraph
+  - r-doparallel
+  - pip
+  - pip:
+      - -r requirements.txt
+# MEGENA isn't on conda-forge/bioconda - install it from CRAN/GitHub inside
+# this env after creating it:
+#   R -e 'install.packages("MEGENA", repos = "https://cloud.r-project.org")'
+# or, if that version is stale:
+#   R -e 'remotes::install_github("songw01/MEGENA")'
