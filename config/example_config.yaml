@@ -1,0 +1,23 @@
+# example_config.yaml
+#
+# Not wired into the CLI yet (see README "known limitations") - for now
+# this documents the knobs that exist as CLI flags, so there's one place
+# to look instead of --help across three subcommands.
+
+expr: data/GSE174409_counts.csv
+meta: data/meta.csv
+condition: diagnosis          # column in meta.csv to test, e.g. OUD vs control
+outdir: results/
+
+deg:
+  alpha: 0.05                 # padj cutoff for calling something a DEG
+
+network:
+  top_var_genes: 3000         # + all significant DEGs, unioned
+  cores: 4
+  all_genes: false            # true = run MEGENA on the whole matrix (slow)
+
+enrichment:
+  org_db: org.Hs.eg.db        # org.Mm.eg.db for mouse, etc.
+  key_type: SYMBOL
+  qval: 0.05
