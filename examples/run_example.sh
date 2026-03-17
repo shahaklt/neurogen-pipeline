@@ -10,3 +10,5 @@ python -m pipeline.cli full \
   --top-var 3000 \
   --cores 4 \
   --org-db org.Hs.eg.db
+
+# wip note: document covariate auto-detection from metadata columns
