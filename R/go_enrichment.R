@@ -93,3 +93,5 @@ write.csv(kegg_combined, file.path(outdir, "kegg_enrichment_by_module.csv"), row
 
 message(sprintf("GO enrichment done: %d modules with >=1 significant BP term, %d with KEGG hits",
                  length(go_all), length(kegg_all)))
+
+# wip note: extend tests for --org-db flag for non-human organisms
