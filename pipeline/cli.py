@@ -129,3 +129,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# wip note: document brain_region as alternate --condition example
