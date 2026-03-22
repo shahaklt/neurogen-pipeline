@@ -131,3 +131,5 @@ if __name__ == "__main__":
     main()
 
 # wip note: document brain_region as alternate --condition example
+
+# wip note: simplify covariate auto-detection from metadata columns
