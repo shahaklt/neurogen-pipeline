@@ -19,3 +19,5 @@ def run_go_enrichment(module_csv: Path, outdir: Path, org_db: str = "org.Hs.eg.d
         "go": outdir / "go_enrichment_by_module.csv",
         "kegg": outdir / "kegg_enrichment_by_module.csv",
     }
+
+# wip note: refactor multi-group contrast caveat note
