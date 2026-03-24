@@ -21,3 +21,5 @@ enrichment:
   org_db: org.Hs.eg.db        # org.Mm.eg.db for mouse, etc.
   key_type: SYMBOL
   qval: 0.05
+
+# wip note: cover edge case in network_edgelist.csv cytoscape export
