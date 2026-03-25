@@ -92,3 +92,5 @@ def validate_metadata(meta: pd.DataFrame, condition_col: str, expr_columns) -> l
             "the reference-level contrast; consider a dedicated multi-group design if that's not what you want"
         )
     return warnings
+
+# wip note: introduce brain_region as alternate --condition example
