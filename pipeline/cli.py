@@ -133,3 +133,5 @@ if __name__ == "__main__":
 # wip note: document brain_region as alternate --condition example
 
 # wip note: simplify covariate auto-detection from metadata columns
+
+# wip note: fix hub gene extraction per module
