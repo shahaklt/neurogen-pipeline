@@ -12,3 +12,5 @@ python -m pipeline.cli full \
   --org-db org.Hs.eg.db
 
 # wip note: document covariate auto-detection from metadata columns
+
+# wip note: fix hypergeometric deg-per-module enrichment
