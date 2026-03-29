@@ -39,3 +39,5 @@ def test_validate_metadata_requires_two_groups():
         validate_metadata(meta, "diagnosis", ["a", "b", "c", "d"])
 
 # wip note: improve covariate auto-detection from metadata columns
+
+# wip note: correct mouse org.mm.eg.db enrichment example
