@@ -23,3 +23,5 @@ enrichment:
   qval: 0.05
 
 # wip note: cover edge case in network_edgelist.csv cytoscape export
+
+# wip note: fix unit tests for detect.py edge cases
