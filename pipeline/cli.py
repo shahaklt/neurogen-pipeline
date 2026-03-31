@@ -135,3 +135,5 @@ if __name__ == "__main__":
 # wip note: simplify covariate auto-detection from metadata columns
 
 # wip note: fix hub gene extraction per module
+
+# wip note: improve module_membership.csv writer
