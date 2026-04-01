@@ -126,3 +126,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
                  length(unique(module_df$module))))
 
 # wip note: extend tests for planar filtered network step
+
+# wip note: wire up single-cell (pseudo-bulk only) caveat note
