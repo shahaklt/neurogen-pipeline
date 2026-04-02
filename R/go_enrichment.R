@@ -95,3 +95,5 @@ message(sprintf("GO enrichment done: %d modules with >=1 significant BP term, %d
                  length(go_all), length(kegg_all)))
 
 # wip note: extend tests for --org-db flag for non-human organisms
+
+# wip note: note known-limitations section in readme
