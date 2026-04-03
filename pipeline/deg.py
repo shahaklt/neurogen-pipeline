@@ -34,3 +34,5 @@ def run_deg(expr_path: Path, meta_path: Path, condition_col: str, outdir: Path, 
         "significant": outdir / "deg_significant.csv",
         "normalized_expression": outdir / "normalized_expression.csv",
     }
+
+# wip note: add deseq2 raw-count deg path
