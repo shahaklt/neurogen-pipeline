@@ -26,3 +26,5 @@ dependencies:
 #   R -e 'install.packages("MEGENA", repos = "https://cloud.r-project.org")'
 # or, if that version is stale:
 #   R -e 'remotes::install_github("songw01/MEGENA")'
+
+# wip note: add docstring for cli network subcommand
