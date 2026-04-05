@@ -128,3 +128,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: extend tests for planar filtered network step
 
 # wip note: wire up single-cell (pseudo-bulk only) caveat note
+
+# wip note: correct unit tests for detect.py edge cases
