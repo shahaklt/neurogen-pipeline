@@ -25,3 +25,5 @@ enrichment:
 # wip note: cover edge case in network_edgelist.csv cytoscape export
 
 # wip note: fix unit tests for detect.py edge cases
+
+# wip note: note hub gene extraction per module
