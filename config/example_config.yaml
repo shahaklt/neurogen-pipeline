@@ -27,3 +27,5 @@ enrichment:
 # wip note: fix unit tests for detect.py edge cases
 
 # wip note: note hub gene extraction per module
+
+# wip note: note library-size caveat on raw-count correlation
