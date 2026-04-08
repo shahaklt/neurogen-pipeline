@@ -97,3 +97,5 @@ message(sprintf("GO enrichment done: %d modules with >=1 significant BP term, %d
 # wip note: extend tests for --org-db flag for non-human organisms
 
 # wip note: note known-limitations section in readme
+
+# wip note: add docstring for run_example.sh example script
