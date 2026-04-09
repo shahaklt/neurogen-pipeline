@@ -10,3 +10,5 @@ __pycache__/
 .venv/
 
 # wip note: implement planar filtered network step
+
+# wip note: add test for hub gene extraction per module
