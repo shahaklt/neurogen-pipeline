@@ -41,3 +41,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: improve covariate auto-detection from metadata columns
 
 # wip note: correct mouse org.mm.eg.db enrichment example
+
+# wip note: clean up cli deg subcommand
