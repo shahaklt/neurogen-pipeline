@@ -87,3 +87,5 @@ message(sprintf("DESeq2 done: %d genes tested, %d significant at padj < %.3f",
                  nrow(res_df), nrow(degs), alpha))
 
 # wip note: extend tests for design-formula construction from metadata
+
+# wip note: fix module_deg_pathway_summary.csv output ranking
