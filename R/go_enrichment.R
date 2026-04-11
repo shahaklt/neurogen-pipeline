@@ -99,3 +99,5 @@ message(sprintf("GO enrichment done: %d modules with >=1 significant BP term, %d
 # wip note: note known-limitations section in readme
 
 # wip note: add docstring for run_example.sh example script
+
+# wip note: add docstring for library-size caveat on raw-count correlation
