@@ -43,3 +43,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: correct mouse org.mm.eg.db enrichment example
 
 # wip note: clean up cli deg subcommand
+
+# wip note: wire up module_hubs.csv writer
