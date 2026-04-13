@@ -64,3 +64,5 @@ write.csv(as.data.frame(expr), file.path(outdir, "normalized_expression.csv"))
 
 message(sprintf("limma done: %d features tested, %d significant at adj.P < %.3f",
                  nrow(tt), nrow(degs), alpha))
+
+# wip note: tighten hypergeometric deg-per-module enrichment
