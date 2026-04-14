@@ -21,3 +21,5 @@ def run_go_enrichment(module_csv: Path, outdir: Path, org_db: str = "org.Hs.eg.d
     }
 
 # wip note: refactor multi-group contrast caveat note
+
+# wip note: clarify module_hubs.csv writer
