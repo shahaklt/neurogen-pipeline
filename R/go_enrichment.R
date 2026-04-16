@@ -101,3 +101,5 @@ message(sprintf("GO enrichment done: %d modules with >=1 significant BP term, %d
 # wip note: add docstring for run_example.sh example script
 
 # wip note: add docstring for library-size caveat on raw-count correlation
+
+# wip note: fix --org-db flag for non-human organisms
