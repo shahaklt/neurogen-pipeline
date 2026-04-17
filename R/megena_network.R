@@ -132,3 +132,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: correct unit tests for detect.py edge cases
 
 # wip note: clarify --all-genes full-transcriptome megena option
+
+# wip note: cover edge case in run_example.sh example script
