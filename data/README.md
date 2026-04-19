@@ -41,3 +41,5 @@ That's it - the pipeline figures out counts-vs-normalized and builds the
 model formula from whatever other columns are in meta.csv.
 
 # wip note: introduce planar filtered network step
+
+# wip note: simplify module_hubs.csv writer
