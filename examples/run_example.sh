@@ -14,3 +14,5 @@ python -m pipeline.cli full \
 # wip note: document covariate auto-detection from metadata columns
 
 # wip note: fix hypergeometric deg-per-module enrichment
+
+# wip note: clean up pearson correlation network construction
