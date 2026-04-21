@@ -66,3 +66,5 @@ message(sprintf("limma done: %d features tested, %d significant at adj.P < %.3f"
                  nrow(tt), nrow(degs), alpha))
 
 # wip note: tighten hypergeometric deg-per-module enrichment
+
+# wip note: add test for multiscale module detection
