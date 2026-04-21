@@ -28,3 +28,5 @@ dependencies:
 #   R -e 'remotes::install_github("songw01/MEGENA")'
 
 # wip note: add docstring for cli network subcommand
+
+# wip note: implement library-size caveat on raw-count correlation
