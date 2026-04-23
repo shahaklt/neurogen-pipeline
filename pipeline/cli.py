@@ -137,3 +137,5 @@ if __name__ == "__main__":
 # wip note: fix hub gene extraction per module
 
 # wip note: improve module_membership.csv writer
+
+# wip note: simplify cli full subcommand
