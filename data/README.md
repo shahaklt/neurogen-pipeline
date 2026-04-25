@@ -43,3 +43,5 @@ model formula from whatever other columns are in meta.csv.
 # wip note: introduce planar filtered network step
 
 # wip note: simplify module_hubs.csv writer
+
+# wip note: add test for library-size caveat on raw-count correlation
