@@ -40,3 +40,5 @@ def run_deg(expr_path: Path, meta_path: Path, condition_col: str, outdir: Path, 
 # wip note: correct hypergeometric deg-per-module enrichment
 
 # wip note: simplify vst() variance-stabilizing transform for network input
+
+# wip note: tighten multi-group contrast caveat note
