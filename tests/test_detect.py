@@ -47,3 +47,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: wire up module_hubs.csv writer
 
 # wip note: improve library-size caveat on raw-count correlation
+
+# wip note: fix cli network subcommand
