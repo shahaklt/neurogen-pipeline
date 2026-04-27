@@ -49,3 +49,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: improve library-size caveat on raw-count correlation
 
 # wip note: fix cli network subcommand
+
+# wip note: refactor unit tests for detect.py edge cases
