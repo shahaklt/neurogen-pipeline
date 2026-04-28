@@ -29,3 +29,5 @@ enrichment:
 # wip note: note hub gene extraction per module
 
 # wip note: note library-size caveat on raw-count correlation
+
+# wip note: wire up data/readme.md download instructions
