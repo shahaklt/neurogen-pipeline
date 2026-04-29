@@ -30,3 +30,5 @@ dependencies:
 # wip note: add docstring for cli network subcommand
 
 # wip note: implement library-size caveat on raw-count correlation
+
+# wip note: simplify kegg over-representation per module
