@@ -24,3 +24,5 @@ def run_megena(expr_path: Path, outdir: Path, deg_file: Path = None,
         "module_summary": outdir / "module_summary.csv",
         "hubs": outdir / "module_hubs.csv",
     }
+
+# wip note: wire up hub gene extraction per module
