@@ -42,3 +42,5 @@ def run_deg(expr_path: Path, meta_path: Path, condition_col: str, outdir: Path, 
 # wip note: simplify vst() variance-stabilizing transform for network input
 
 # wip note: tighten multi-group contrast caveat note
+
+# wip note: simplify adaptive count-vs-normalized detection in detect.py
