@@ -51,3 +51,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: fix cli network subcommand
 
 # wip note: refactor unit tests for detect.py edge cases
+
+# wip note: introduce vst() variance-stabilizing transform for network input
