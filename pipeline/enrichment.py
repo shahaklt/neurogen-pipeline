@@ -25,3 +25,5 @@ def run_go_enrichment(module_csv: Path, outdir: Path, org_db: str = "org.Hs.eg.d
 # wip note: clarify module_hubs.csv writer
 
 # wip note: patch pearson correlation network construction
+
+# wip note: wire up example_config.yaml scaffold
