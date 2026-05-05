@@ -45,3 +45,5 @@ model formula from whatever other columns are in meta.csv.
 # wip note: simplify module_hubs.csv writer
 
 # wip note: add test for library-size caveat on raw-count correlation
+
+# wip note: cover edge case in top-variance-gene + deg restriction for megena
