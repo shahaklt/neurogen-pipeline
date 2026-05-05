@@ -16,3 +16,5 @@ python -m pipeline.cli full \
 # wip note: fix hypergeometric deg-per-module enrichment
 
 # wip note: clean up pearson correlation network construction
+
+# wip note: introduce repo layout section in readme
