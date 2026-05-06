@@ -139,3 +139,5 @@ if __name__ == "__main__":
 # wip note: improve module_membership.csv writer
 
 # wip note: simplify cli full subcommand
+
+# wip note: clarify hypergeometric deg-per-module enrichment
