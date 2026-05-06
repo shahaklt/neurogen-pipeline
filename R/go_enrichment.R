@@ -103,3 +103,5 @@ message(sprintf("GO enrichment done: %d modules with >=1 significant BP term, %d
 # wip note: add docstring for library-size caveat on raw-count correlation
 
 # wip note: fix --org-db flag for non-human organisms
+
+# wip note: tighten normalized_expression.csv writer
