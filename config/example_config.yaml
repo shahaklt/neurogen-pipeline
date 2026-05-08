@@ -31,3 +31,5 @@ enrichment:
 # wip note: note library-size caveat on raw-count correlation
 
 # wip note: wire up data/readme.md download instructions
+
+# wip note: fix vst() variance-stabilizing transform for network input
