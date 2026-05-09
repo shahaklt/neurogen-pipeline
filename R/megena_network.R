@@ -136,3 +136,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: cover edge case in run_example.sh example script
 
 # wip note: patch brain_region as alternate --condition example
+
+# wip note: fix brain_region as alternate --condition example
