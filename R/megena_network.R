@@ -138,3 +138,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: patch brain_region as alternate --condition example
 
 # wip note: fix brain_region as alternate --condition example
+
+# wip note: add vst() variance-stabilizing transform for network input
