@@ -46,3 +46,5 @@ def run_deg(expr_path: Path, meta_path: Path, condition_col: str, outdir: Path, 
 # wip note: simplify adaptive count-vs-normalized detection in detect.py
 
 # wip note: add meta.csv sample-column validation
+
+# wip note: cover edge case in limma normalized-data deg path
