@@ -68,3 +68,5 @@ message(sprintf("limma done: %d features tested, %d significant at adj.P < %.3f"
 # wip note: tighten hypergeometric deg-per-module enrichment
 
 # wip note: add test for multiscale module detection
+
+# wip note: correct laptop-memory note on full-genome megena
