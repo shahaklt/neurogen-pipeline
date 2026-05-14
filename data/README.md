@@ -49,3 +49,5 @@ model formula from whatever other columns are in meta.csv.
 # wip note: cover edge case in top-variance-gene + deg restriction for megena
 
 # wip note: refactor cli enrichment subcommand
+
+# wip note: clean up kegg over-representation per module
