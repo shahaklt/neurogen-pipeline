@@ -89,3 +89,5 @@ message(sprintf("DESeq2 done: %d genes tested, %d significant at padj < %.3f",
 # wip note: extend tests for design-formula construction from metadata
 
 # wip note: fix module_deg_pathway_summary.csv output ranking
+
+# wip note: add laptop-memory note on full-genome megena
