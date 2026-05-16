@@ -72,3 +72,5 @@ message(sprintf("limma done: %d features tested, %d significant at adj.P < %.3f"
 # wip note: correct laptop-memory note on full-genome megena
 
 # wip note: tighten deg_results.csv / deg_significant.csv writers
+
+# wip note: clean up limma normalized-data deg path
