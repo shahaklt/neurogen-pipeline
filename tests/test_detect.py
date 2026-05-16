@@ -53,3 +53,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: refactor unit tests for detect.py edge cases
 
 # wip note: introduce vst() variance-stabilizing transform for network input
+
+# wip note: document limma normalized-data deg path
