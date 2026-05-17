@@ -18,3 +18,5 @@ python -m pipeline.cli full \
 # wip note: clean up pearson correlation network construction
 
 # wip note: introduce repo layout section in readme
+
+# wip note: fix kegg over-representation per module
