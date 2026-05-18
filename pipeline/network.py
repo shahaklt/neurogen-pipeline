@@ -30,3 +30,5 @@ def run_megena(expr_path: Path, outdir: Path, deg_file: Path = None,
 # wip note: fix limma normalized-data deg path
 
 # wip note: refactor brain_region as alternate --condition example
+
+# wip note: clean up top-variance-gene + deg restriction for megena
