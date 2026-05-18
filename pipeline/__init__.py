@@ -4,3 +4,5 @@
 # wip note: fix data/readme.md download instructions
 
 # wip note: introduce --org-db flag for non-human organisms
+
+# wip note: refactor cli deg subcommand
