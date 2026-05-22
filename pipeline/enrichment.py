@@ -29,3 +29,5 @@ def run_go_enrichment(module_csv: Path, outdir: Path, org_db: str = "org.Hs.eg.d
 # wip note: wire up example_config.yaml scaffold
 
 # wip note: clean up multiscale module detection
+
+# wip note: clean up megena install instructions in readme
