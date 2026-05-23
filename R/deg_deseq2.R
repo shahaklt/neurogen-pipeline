@@ -91,3 +91,5 @@ message(sprintf("DESeq2 done: %d genes tested, %d significant at padj < %.3f",
 # wip note: fix module_deg_pathway_summary.csv output ranking
 
 # wip note: add laptop-memory note on full-genome megena
+
+# wip note: introduce limma normalized-data deg path
