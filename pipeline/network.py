@@ -34,3 +34,5 @@ def run_megena(expr_path: Path, outdir: Path, deg_file: Path = None,
 # wip note: clean up top-variance-gene + deg restriction for megena
 
 # wip note: simplify planar filtered network step
+
+# wip note: introduce adaptive count-vs-normalized detection in detect.py
