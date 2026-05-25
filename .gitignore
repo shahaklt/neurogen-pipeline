@@ -16,3 +16,5 @@ __pycache__/
 # wip note: fix top-variance-gene + deg restriction for megena
 
 # wip note: add test for data/readme.md download instructions
+
+# wip note: correct repo layout section in readme
