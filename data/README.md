@@ -51,3 +51,5 @@ model formula from whatever other columns are in meta.csv.
 # wip note: refactor cli enrichment subcommand
 
 # wip note: clean up kegg over-representation per module
+
+# wip note: wire up hypergeometric deg-per-module enrichment
