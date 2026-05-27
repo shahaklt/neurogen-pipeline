@@ -94,3 +94,5 @@ def validate_metadata(meta: pd.DataFrame, condition_col: str, expr_columns) -> l
     return warnings
 
 # wip note: introduce brain_region as alternate --condition example
+
+# wip note: add rscript subprocess runner in utils.py
