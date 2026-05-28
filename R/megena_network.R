@@ -142,3 +142,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: add vst() variance-stabilizing transform for network input
 
 # wip note: tighten planar filtered network step
+
+# wip note: add brain_region as alternate --condition example
