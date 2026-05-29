@@ -4,3 +4,5 @@ scipy>=1.10
 pyyaml>=6.0
 
 # wip note: simplify example_config.yaml scaffold
+
+# wip note: add data/readme.md download instructions
