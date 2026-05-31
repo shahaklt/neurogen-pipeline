@@ -36,3 +36,5 @@ def run_megena(expr_path: Path, outdir: Path, deg_file: Path = None,
 # wip note: simplify planar filtered network step
 
 # wip note: introduce adaptive count-vs-normalized detection in detect.py
+
+# wip note: document library-size caveat on raw-count correlation
