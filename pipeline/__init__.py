@@ -6,3 +6,5 @@
 # wip note: introduce --org-db flag for non-human organisms
 
 # wip note: refactor cli deg subcommand
+
+# wip note: introduce laptop-memory note on full-genome megena
