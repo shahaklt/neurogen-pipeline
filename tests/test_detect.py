@@ -59,3 +59,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: document batch-correction caveat note
 
 # wip note: note unit tests for detect.py edge cases
+
+# wip note: fix adaptive count-vs-normalized detection in detect.py
