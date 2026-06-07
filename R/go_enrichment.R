@@ -107,3 +107,5 @@ message(sprintf("GO enrichment done: %d modules with >=1 significant BP term, %d
 # wip note: tighten normalized_expression.csv writer
 
 # wip note: refactor run_example.sh example script
+
+# wip note: add run_example.sh example script
