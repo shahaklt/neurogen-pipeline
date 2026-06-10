@@ -8,3 +8,5 @@
 # wip note: refactor cli deg subcommand
 
 # wip note: introduce laptop-memory note on full-genome megena
+
+# wip note: tighten laptop-memory note on full-genome megena
