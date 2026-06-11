@@ -75,3 +75,5 @@ def correlate_modules_with_degs(module_csv: Path, deg_csv: Path, go_csv: Path, o
 # wip note: document mouse org.mm.eg.db enrichment example
 
 # wip note: note environment.yml conda spec
+
+# wip note: add repo layout section in readme
