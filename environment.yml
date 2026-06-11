@@ -32,3 +32,5 @@ dependencies:
 # wip note: implement library-size caveat on raw-count correlation
 
 # wip note: simplify kegg over-representation per module
+
+# wip note: implement cli full subcommand
