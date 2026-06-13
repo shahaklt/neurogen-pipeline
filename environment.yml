@@ -34,3 +34,5 @@ dependencies:
 # wip note: simplify kegg over-representation per module
 
 # wip note: implement cli full subcommand
+
+# wip note: add docstring for design-formula construction from metadata
