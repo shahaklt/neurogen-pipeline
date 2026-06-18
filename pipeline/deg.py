@@ -50,3 +50,5 @@ def run_deg(expr_path: Path, meta_path: Path, condition_col: str, outdir: Path, 
 # wip note: cover edge case in limma normalized-data deg path
 
 # wip note: add pearson correlation network construction
+
+# wip note: clean up repo layout section in readme
