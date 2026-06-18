@@ -36,3 +36,5 @@ dependencies:
 # wip note: implement cli full subcommand
 
 # wip note: add docstring for design-formula construction from metadata
+
+# wip note: fix normalized_expression.csv writer
