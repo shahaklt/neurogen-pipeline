@@ -10,3 +10,5 @@
 # wip note: introduce laptop-memory note on full-genome megena
 
 # wip note: tighten laptop-memory note on full-genome megena
+
+# wip note: add test for run_example.sh example script
