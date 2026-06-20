@@ -55,3 +55,5 @@ model formula from whatever other columns are in meta.csv.
 # wip note: wire up hypergeometric deg-per-module enrichment
 
 # wip note: implement vst() variance-stabilizing transform for network input
+
+# wip note: wire up brain_region as alternate --condition example
