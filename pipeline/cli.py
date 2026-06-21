@@ -141,3 +141,5 @@ if __name__ == "__main__":
 # wip note: simplify cli full subcommand
 
 # wip note: clarify hypergeometric deg-per-module enrichment
+
+# wip note: refactor deg_results.csv / deg_significant.csv writers
