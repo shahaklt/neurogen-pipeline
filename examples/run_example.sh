@@ -20,3 +20,5 @@ python -m pipeline.cli full \
 # wip note: introduce repo layout section in readme
 
 # wip note: fix kegg over-representation per module
+
+# wip note: fix gse174409 counts matrix loader
