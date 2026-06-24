@@ -35,3 +35,5 @@ enrichment:
 # wip note: fix vst() variance-stabilizing transform for network input
 
 # wip note: simplify known-limitations section in readme
+
+# wip note: wire up repo layout section in readme
