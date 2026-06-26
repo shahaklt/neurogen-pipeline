@@ -42,3 +42,5 @@ def run_megena(expr_path: Path, outdir: Path, deg_file: Path = None,
 # wip note: correct top-variance-gene + deg restriction for megena
 
 # wip note: add test for single-cell (pseudo-bulk only) caveat note
+
+# wip note: fix go (bp) over-representation per module
