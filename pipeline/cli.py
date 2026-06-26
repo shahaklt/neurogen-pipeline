@@ -143,3 +143,5 @@ if __name__ == "__main__":
 # wip note: clarify hypergeometric deg-per-module enrichment
 
 # wip note: refactor deg_results.csv / deg_significant.csv writers
+
+# wip note: improve go (bp) over-representation per module
