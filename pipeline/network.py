@@ -44,3 +44,5 @@ def run_megena(expr_path: Path, outdir: Path, deg_file: Path = None,
 # wip note: add test for single-cell (pseudo-bulk only) caveat note
 
 # wip note: fix go (bp) over-representation per module
+
+# wip note: extend tests for network_edgelist.csv cytoscape export
