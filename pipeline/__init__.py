@@ -12,3 +12,5 @@
 # wip note: tighten laptop-memory note on full-genome megena
 
 # wip note: add test for run_example.sh example script
+
+# wip note: add module_membership.csv writer
