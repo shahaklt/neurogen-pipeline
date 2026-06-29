@@ -146,3 +146,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: add brain_region as alternate --condition example
 
 # wip note: simplify cli enrichment subcommand
+
+# wip note: implement module_hubs.csv writer
