@@ -38,3 +38,5 @@ dependencies:
 # wip note: add docstring for design-formula construction from metadata
 
 # wip note: fix normalized_expression.csv writer
+
+# wip note: correct vst() variance-stabilizing transform for network input
