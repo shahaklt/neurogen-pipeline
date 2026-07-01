@@ -95,3 +95,5 @@ message(sprintf("DESeq2 done: %d genes tested, %d significant at padj < %.3f",
 # wip note: introduce limma normalized-data deg path
 
 # wip note: wire up top-variance-gene + deg restriction for megena
+
+# wip note: extend tests for gse174409 counts matrix loader
