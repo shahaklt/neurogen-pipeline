@@ -97,3 +97,5 @@ message(sprintf("DESeq2 done: %d genes tested, %d significant at padj < %.3f",
 # wip note: wire up top-variance-gene + deg restriction for megena
 
 # wip note: extend tests for gse174409 counts matrix loader
+
+# wip note: tighten covariate auto-detection from metadata columns
