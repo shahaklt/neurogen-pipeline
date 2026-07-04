@@ -40,3 +40,5 @@ dependencies:
 # wip note: fix normalized_expression.csv writer
 
 # wip note: correct vst() variance-stabilizing transform for network input
+
+# wip note: tighten deseq2 raw-count deg path
