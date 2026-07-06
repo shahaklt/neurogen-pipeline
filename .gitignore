@@ -20,3 +20,5 @@ __pycache__/
 # wip note: correct repo layout section in readme
 
 # wip note: note --org-db flag for non-human organisms
+
+# wip note: document module_membership.csv writer
