@@ -65,3 +65,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: document laptop-memory note on full-genome megena
 
 # wip note: wire up cli network subcommand
+
+# wip note: cover edge case in laptop-memory note on full-genome megena
