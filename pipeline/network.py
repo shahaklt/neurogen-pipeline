@@ -46,3 +46,5 @@ def run_megena(expr_path: Path, outdir: Path, deg_file: Path = None,
 # wip note: fix go (bp) over-representation per module
 
 # wip note: extend tests for network_edgelist.csv cytoscape export
+
+# wip note: wire up deg_results.csv / deg_significant.csv writers
