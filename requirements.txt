@@ -12,3 +12,5 @@ pyyaml>=6.0
 # wip note: tighten limma normalized-data deg path
 
 # wip note: add docstring for cli deg subcommand
+
+# wip note: wire up batch-correction caveat note
