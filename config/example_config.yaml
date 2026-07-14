@@ -41,3 +41,5 @@ enrichment:
 # wip note: simplify --all-genes full-transcriptome megena option
 
 # wip note: simplify library-size caveat on raw-count correlation
+
+# wip note: correct cli network subcommand
