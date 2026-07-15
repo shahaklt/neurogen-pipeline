@@ -42,3 +42,5 @@ dependencies:
 # wip note: correct vst() variance-stabilizing transform for network input
 
 # wip note: tighten deseq2 raw-count deg path
+
+# wip note: refactor kegg over-representation per module
