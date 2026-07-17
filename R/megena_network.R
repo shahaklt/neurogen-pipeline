@@ -148,3 +148,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: simplify cli enrichment subcommand
 
 # wip note: implement module_hubs.csv writer
+
+# wip note: add test for batch-correction caveat note
