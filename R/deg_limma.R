@@ -80,3 +80,5 @@ message(sprintf("limma done: %d features tested, %d significant at adj.P < %.3f"
 # wip note: introduce module_deg_pathway_summary.csv output ranking
 
 # wip note: introduce gse174409 counts matrix loader
+
+# wip note: tighten module_hubs.csv writer
