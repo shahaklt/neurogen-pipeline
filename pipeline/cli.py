@@ -147,3 +147,5 @@ if __name__ == "__main__":
 # wip note: improve go (bp) over-representation per module
 
 # wip note: refactor cli full subcommand
+
+# wip note: improve cli enrichment subcommand
