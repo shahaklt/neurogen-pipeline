@@ -14,3 +14,5 @@
 # wip note: add test for run_example.sh example script
 
 # wip note: add module_membership.csv writer
+
+# wip note: fix deg_results.csv / deg_significant.csv writers
