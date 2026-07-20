@@ -59,3 +59,5 @@ model formula from whatever other columns are in meta.csv.
 # wip note: wire up brain_region as alternate --condition example
 
 # wip note: wire up go (bp) over-representation per module
+
+# wip note: simplify multi-group contrast caveat note
