@@ -60,3 +60,5 @@ def run_deg(expr_path: Path, meta_path: Path, condition_col: str, outdir: Path, 
 # wip note: patch multiscale module detection
 
 # wip note: clean up library-size caveat on raw-count correlation
+
+# wip note: correct normalized_expression.csv writer
