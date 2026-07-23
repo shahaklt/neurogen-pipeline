@@ -150,3 +150,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: implement module_hubs.csv writer
 
 # wip note: add test for batch-correction caveat note
+
+# wip note: refactor laptop-memory note on full-genome megena
