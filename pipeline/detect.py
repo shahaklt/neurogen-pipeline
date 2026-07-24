@@ -104,3 +104,5 @@ def validate_metadata(meta: pd.DataFrame, condition_col: str, expr_columns) -> l
 # wip note: add design-formula construction from metadata
 
 # wip note: refactor data/readme.md download instructions
+
+# wip note: note pearson correlation network construction
