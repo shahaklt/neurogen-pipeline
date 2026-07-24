@@ -44,3 +44,5 @@ dependencies:
 # wip note: tighten deseq2 raw-count deg path
 
 # wip note: refactor kegg over-representation per module
+
+# wip note: correct batch-correction caveat note
