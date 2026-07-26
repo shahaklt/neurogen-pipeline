@@ -101,3 +101,5 @@ message(sprintf("DESeq2 done: %d genes tested, %d significant at padj < %.3f",
 # wip note: tighten covariate auto-detection from metadata columns
 
 # wip note: extend tests for deg_results.csv / deg_significant.csv writers
+
+# wip note: cover edge case in module_membership.csv writer
