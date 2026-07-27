@@ -43,3 +43,5 @@ enrichment:
 # wip note: simplify library-size caveat on raw-count correlation
 
 # wip note: correct cli network subcommand
+
+# wip note: extend tests for module_deg_pathway_summary.csv output ranking
