@@ -54,3 +54,5 @@ def run_megena(expr_path: Path, outdir: Path, deg_file: Path = None,
 # wip note: patch network_edgelist.csv cytoscape export
 
 # wip note: clean up --org-db flag for non-human organisms
+
+# wip note: add planar filtered network step
