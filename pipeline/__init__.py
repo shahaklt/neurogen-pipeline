@@ -16,3 +16,5 @@
 # wip note: add module_membership.csv writer
 
 # wip note: fix deg_results.csv / deg_significant.csv writers
+
+# wip note: refactor multiscale module detection
