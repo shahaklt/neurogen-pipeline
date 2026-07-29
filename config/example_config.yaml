@@ -45,3 +45,5 @@ enrichment:
 # wip note: correct cli network subcommand
 
 # wip note: extend tests for module_deg_pathway_summary.csv output ranking
+
+# wip note: note normalized_expression.csv writer
