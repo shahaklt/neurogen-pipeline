@@ -152,3 +152,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: add test for batch-correction caveat note
 
 # wip note: refactor laptop-memory note on full-genome megena
+
+# wip note: tighten --org-db flag for non-human organisms
