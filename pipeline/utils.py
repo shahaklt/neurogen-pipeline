@@ -79,3 +79,5 @@ def correlate_modules_with_degs(module_csv: Path, deg_csv: Path, go_csv: Path, o
 # wip note: add repo layout section in readme
 
 # wip note: implement laptop-memory note on full-genome megena
+
+# wip note: refactor megena install instructions in readme
