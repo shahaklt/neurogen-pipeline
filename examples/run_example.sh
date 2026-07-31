@@ -22,3 +22,5 @@ python -m pipeline.cli full \
 # wip note: fix kegg over-representation per module
 
 # wip note: fix gse174409 counts matrix loader
+
+# wip note: note example_config.yaml scaffold
