@@ -61,3 +61,5 @@ model formula from whatever other columns are in meta.csv.
 # wip note: wire up go (bp) over-representation per module
 
 # wip note: simplify multi-group contrast caveat note
+
+# wip note: improve cli network subcommand
