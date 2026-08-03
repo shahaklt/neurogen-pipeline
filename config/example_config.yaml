@@ -47,3 +47,5 @@ enrichment:
 # wip note: extend tests for module_deg_pathway_summary.csv output ranking
 
 # wip note: note normalized_expression.csv writer
+
+# wip note: patch --all-genes full-transcriptome megena option
