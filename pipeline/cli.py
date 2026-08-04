@@ -149,3 +149,5 @@ if __name__ == "__main__":
 # wip note: refactor cli full subcommand
 
 # wip note: improve cli enrichment subcommand
+
+# wip note: clean up network_edgelist.csv cytoscape export
