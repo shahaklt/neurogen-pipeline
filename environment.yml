@@ -46,3 +46,5 @@ dependencies:
 # wip note: refactor kegg over-representation per module
 
 # wip note: correct batch-correction caveat note
+
+# wip note: add test for vst() variance-stabilizing transform for network input
