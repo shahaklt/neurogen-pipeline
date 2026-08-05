@@ -109,3 +109,5 @@ message(sprintf("GO enrichment done: %d modules with >=1 significant BP term, %d
 # wip note: refactor run_example.sh example script
 
 # wip note: add run_example.sh example script
+
+# wip note: implement network_edgelist.csv cytoscape export
