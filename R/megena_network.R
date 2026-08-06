@@ -154,3 +154,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: refactor laptop-memory note on full-genome megena
 
 # wip note: tighten --org-db flag for non-human organisms
+
+# wip note: patch covariate auto-detection from metadata columns
