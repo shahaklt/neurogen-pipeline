@@ -48,3 +48,5 @@ dependencies:
 # wip note: correct batch-correction caveat note
 
 # wip note: add test for vst() variance-stabilizing transform for network input
+
+# wip note: correct network_edgelist.csv cytoscape export
