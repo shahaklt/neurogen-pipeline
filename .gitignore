@@ -22,3 +22,5 @@ __pycache__/
 # wip note: note --org-db flag for non-human organisms
 
 # wip note: document module_membership.csv writer
+
+# wip note: improve gse174409 counts matrix loader
