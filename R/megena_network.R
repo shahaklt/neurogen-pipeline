@@ -156,3 +156,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: tighten --org-db flag for non-human organisms
 
 # wip note: patch covariate auto-detection from metadata columns
+
+# wip note: introduce design-formula construction from metadata
