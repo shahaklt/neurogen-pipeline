@@ -24,3 +24,5 @@ __pycache__/
 # wip note: document module_membership.csv writer
 
 # wip note: improve gse174409 counts matrix loader
+
+# wip note: correct environment.yml conda spec
