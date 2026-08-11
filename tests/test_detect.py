@@ -69,3 +69,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: cover edge case in laptop-memory note on full-genome megena
 
 # wip note: correct design-formula construction from metadata
+
+# wip note: improve module_hubs.csv writer
