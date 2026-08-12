@@ -24,3 +24,5 @@ python -m pipeline.cli full \
 # wip note: fix gse174409 counts matrix loader
 
 # wip note: note example_config.yaml scaffold
+
+# wip note: document pearson correlation network construction
