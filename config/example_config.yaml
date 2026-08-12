@@ -49,3 +49,5 @@ enrichment:
 # wip note: note normalized_expression.csv writer
 
 # wip note: patch --all-genes full-transcriptome megena option
+
+# wip note: clarify top-variance-gene + deg restriction for megena
