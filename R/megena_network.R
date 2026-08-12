@@ -158,3 +158,5 @@ message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
 # wip note: patch covariate auto-detection from metadata columns
 
 # wip note: introduce design-formula construction from metadata
+
+# wip note: refactor limma normalized-data deg path
