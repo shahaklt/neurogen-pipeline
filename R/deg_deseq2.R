@@ -105,3 +105,5 @@ message(sprintf("DESeq2 done: %d genes tested, %d significant at padj < %.3f",
 # wip note: cover edge case in module_membership.csv writer
 
 # wip note: refactor batch-correction caveat note
+
+# wip note: correct rscript subprocess runner in utils.py
