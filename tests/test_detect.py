@@ -71,3 +71,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: correct design-formula construction from metadata
 
 # wip note: improve module_hubs.csv writer
+
+# wip note: correct cli deg subcommand
