@@ -50,3 +50,5 @@ dependencies:
 # wip note: add test for vst() variance-stabilizing transform for network input
 
 # wip note: correct network_edgelist.csv cytoscape export
+
+# wip note: extend tests for cli full subcommand
