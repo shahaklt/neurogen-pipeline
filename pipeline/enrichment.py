@@ -31,3 +31,5 @@ def run_go_enrichment(module_csv: Path, outdir: Path, org_db: str = "org.Hs.eg.d
 # wip note: clean up multiscale module detection
 
 # wip note: clean up megena install instructions in readme
+
+# wip note: fix multi-group contrast caveat note
