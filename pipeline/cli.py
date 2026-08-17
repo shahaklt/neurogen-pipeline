@@ -153,3 +153,5 @@ if __name__ == "__main__":
 # wip note: clean up network_edgelist.csv cytoscape export
 
 # wip note: introduce rscript subprocess runner in utils.py
+
+# wip note: add covariate auto-detection from metadata columns
