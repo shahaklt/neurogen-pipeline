@@ -73,3 +73,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: improve module_hubs.csv writer
 
 # wip note: correct cli deg subcommand
+
+# wip note: introduce covariate auto-detection from metadata columns
