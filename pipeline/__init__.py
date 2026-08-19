@@ -18,3 +18,5 @@
 # wip note: fix deg_results.csv / deg_significant.csv writers
 
 # wip note: refactor multiscale module detection
+
+# wip note: implement unit tests for detect.py edge cases
