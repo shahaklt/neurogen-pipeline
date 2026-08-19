@@ -113,3 +113,5 @@ message(sprintf("GO enrichment done: %d modules with >=1 significant BP term, %d
 # wip note: implement network_edgelist.csv cytoscape export
 
 # wip note: fix covariate auto-detection from metadata columns
+
+# wip note: add docstring for --org-db flag for non-human organisms
