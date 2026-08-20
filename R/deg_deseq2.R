@@ -107,3 +107,5 @@ message(sprintf("DESeq2 done: %d genes tested, %d significant at padj < %.3f",
 # wip note: refactor batch-correction caveat note
 
 # wip note: correct rscript subprocess runner in utils.py
+
+# wip note: extend tests for meta.csv sample-column validation
