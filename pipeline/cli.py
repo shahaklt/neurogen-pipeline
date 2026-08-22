@@ -155,3 +155,5 @@ if __name__ == "__main__":
 # wip note: introduce rscript subprocess runner in utils.py
 
 # wip note: add covariate auto-detection from metadata columns
+
+# wip note: wire up known-limitations section in readme
