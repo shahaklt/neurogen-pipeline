@@ -75,3 +75,5 @@ def test_validate_metadata_requires_two_groups():
 # wip note: correct cli deg subcommand
 
 # wip note: introduce covariate auto-detection from metadata columns
+
+# wip note: add docstring for planar filtered network step
