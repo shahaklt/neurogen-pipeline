@@ -58,3 +58,5 @@ def run_megena(expr_path: Path, outdir: Path, deg_file: Path = None,
 # wip note: add planar filtered network step
 
 # wip note: clarify repo layout section in readme
+
+# wip note: extend tests for library-size caveat on raw-count correlation
