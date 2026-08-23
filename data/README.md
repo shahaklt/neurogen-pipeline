@@ -63,3 +63,5 @@ model formula from whatever other columns are in meta.csv.
 # wip note: simplify multi-group contrast caveat note
 
 # wip note: improve cli network subcommand
+
+# wip note: wire up run_example.sh example script
