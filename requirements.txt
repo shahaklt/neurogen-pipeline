@@ -2,21 +2,3 @@ pandas>=1.5
 numpy>=1.24
 scipy>=1.10
 pyyaml>=6.0
-
-# wip note: simplify example_config.yaml scaffold
-
-# wip note: add data/readme.md download instructions
-
-# wip note: correct hub gene extraction per module
-
-# wip note: tighten limma normalized-data deg path
-
-# wip note: add docstring for cli deg subcommand
-
-# wip note: wire up batch-correction caveat note
-
-# wip note: add test for unit tests for detect.py edge cases
-
-# wip note: clean up design-formula construction from metadata
-
-# wip note: clarify hub gene extraction per module

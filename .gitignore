@@ -8,21 +8,3 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
-
-# wip note: implement planar filtered network step
-
-# wip note: add test for hub gene extraction per module
-
-# wip note: fix top-variance-gene + deg restriction for megena
-
-# wip note: add test for data/readme.md download instructions
-
-# wip note: correct repo layout section in readme
-
-# wip note: note --org-db flag for non-human organisms
-
-# wip note: document module_membership.csv writer
-
-# wip note: improve gse174409 counts matrix loader
-
-# wip note: correct environment.yml conda spec

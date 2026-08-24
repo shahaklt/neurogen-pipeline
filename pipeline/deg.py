@@ -34,33 +34,3 @@ def run_deg(expr_path: Path, meta_path: Path, condition_col: str, outdir: Path, 
         "significant": outdir / "deg_significant.csv",
         "normalized_expression": outdir / "normalized_expression.csv",
     }
-
-# wip note: add deseq2 raw-count deg path
-
-# wip note: correct hypergeometric deg-per-module enrichment
-
-# wip note: simplify vst() variance-stabilizing transform for network input
-
-# wip note: tighten multi-group contrast caveat note
-
-# wip note: simplify adaptive count-vs-normalized detection in detect.py
-
-# wip note: add meta.csv sample-column validation
-
-# wip note: cover edge case in limma normalized-data deg path
-
-# wip note: add pearson correlation network construction
-
-# wip note: clean up repo layout section in readme
-
-# wip note: add cli enrichment subcommand
-
-# wip note: clarify library-size caveat on raw-count correlation
-
-# wip note: patch multiscale module detection
-
-# wip note: clean up library-size caveat on raw-count correlation
-
-# wip note: correct normalized_expression.csv writer
-
-# wip note: simplify mouse org.mm.eg.db enrichment example

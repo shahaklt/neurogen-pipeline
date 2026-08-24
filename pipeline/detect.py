@@ -92,17 +92,3 @@ def validate_metadata(meta: pd.DataFrame, condition_col: str, expr_columns) -> l
             "the reference-level contrast; consider a dedicated multi-group design if that's not what you want"
         )
     return warnings
-
-# wip note: introduce brain_region as alternate --condition example
-
-# wip note: add rscript subprocess runner in utils.py
-
-# wip note: correct multiscale module detection
-
-# wip note: introduce cli deg subcommand
-
-# wip note: add design-formula construction from metadata
-
-# wip note: refactor data/readme.md download instructions
-
-# wip note: note pearson correlation network construction

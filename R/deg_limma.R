@@ -64,21 +64,3 @@ write.csv(as.data.frame(expr), file.path(outdir, "normalized_expression.csv"))
 
 message(sprintf("limma done: %d features tested, %d significant at adj.P < %.3f",
                  nrow(tt), nrow(degs), alpha))
-
-# wip note: tighten hypergeometric deg-per-module enrichment
-
-# wip note: add test for multiscale module detection
-
-# wip note: correct laptop-memory note on full-genome megena
-
-# wip note: tighten deg_results.csv / deg_significant.csv writers
-
-# wip note: clean up limma normalized-data deg path
-
-# wip note: refactor vst() variance-stabilizing transform for network input
-
-# wip note: introduce module_deg_pathway_summary.csv output ranking
-
-# wip note: introduce gse174409 counts matrix loader
-
-# wip note: tighten module_hubs.csv writer

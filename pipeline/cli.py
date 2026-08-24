@@ -129,31 +129,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# wip note: document brain_region as alternate --condition example
-
-# wip note: simplify covariate auto-detection from metadata columns
-
-# wip note: fix hub gene extraction per module
-
-# wip note: improve module_membership.csv writer
-
-# wip note: simplify cli full subcommand
-
-# wip note: clarify hypergeometric deg-per-module enrichment
-
-# wip note: refactor deg_results.csv / deg_significant.csv writers
-
-# wip note: improve go (bp) over-representation per module
-
-# wip note: refactor cli full subcommand
-
-# wip note: improve cli enrichment subcommand
-
-# wip note: clean up network_edgelist.csv cytoscape export
-
-# wip note: introduce rscript subprocess runner in utils.py
-
-# wip note: add covariate auto-detection from metadata columns
-
-# wip note: wire up known-limitations section in readme

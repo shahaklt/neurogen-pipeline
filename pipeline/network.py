@@ -24,39 +24,3 @@ def run_megena(expr_path: Path, outdir: Path, deg_file: Path = None,
         "module_summary": outdir / "module_summary.csv",
         "hubs": outdir / "module_hubs.csv",
     }
-
-# wip note: wire up hub gene extraction per module
-
-# wip note: fix limma normalized-data deg path
-
-# wip note: refactor brain_region as alternate --condition example
-
-# wip note: clean up top-variance-gene + deg restriction for megena
-
-# wip note: simplify planar filtered network step
-
-# wip note: introduce adaptive count-vs-normalized detection in detect.py
-
-# wip note: document library-size caveat on raw-count correlation
-
-# wip note: correct top-variance-gene + deg restriction for megena
-
-# wip note: add test for single-cell (pseudo-bulk only) caveat note
-
-# wip note: fix go (bp) over-representation per module
-
-# wip note: extend tests for network_edgelist.csv cytoscape export
-
-# wip note: wire up deg_results.csv / deg_significant.csv writers
-
-# wip note: extend tests for data/readme.md download instructions
-
-# wip note: patch network_edgelist.csv cytoscape export
-
-# wip note: clean up --org-db flag for non-human organisms
-
-# wip note: add planar filtered network step
-
-# wip note: clarify repo layout section in readme
-
-# wip note: extend tests for library-size caveat on raw-count correlation

@@ -124,39 +124,3 @@ if (!is.null(MEGENA.output$hub.output$hub.list)) {
 
 message(sprintf("MEGENA done: %d genes, %d modules", nrow(module_df),
                  length(unique(module_df$module))))
-
-# wip note: extend tests for planar filtered network step
-
-# wip note: wire up single-cell (pseudo-bulk only) caveat note
-
-# wip note: correct unit tests for detect.py edge cases
-
-# wip note: clarify --all-genes full-transcriptome megena option
-
-# wip note: cover edge case in run_example.sh example script
-
-# wip note: patch brain_region as alternate --condition example
-
-# wip note: fix brain_region as alternate --condition example
-
-# wip note: add vst() variance-stabilizing transform for network input
-
-# wip note: tighten planar filtered network step
-
-# wip note: add brain_region as alternate --condition example
-
-# wip note: simplify cli enrichment subcommand
-
-# wip note: implement module_hubs.csv writer
-
-# wip note: add test for batch-correction caveat note
-
-# wip note: refactor laptop-memory note on full-genome megena
-
-# wip note: tighten --org-db flag for non-human organisms
-
-# wip note: patch covariate auto-detection from metadata columns
-
-# wip note: introduce design-formula construction from metadata
-
-# wip note: refactor limma normalized-data deg path

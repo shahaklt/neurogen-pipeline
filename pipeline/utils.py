@@ -71,15 +71,3 @@ def correlate_modules_with_degs(module_csv: Path, deg_csv: Path, go_csv: Path, o
     outdir.mkdir(parents=True, exist_ok=True)
     summary.to_csv(outdir / "module_deg_pathway_summary.csv", index=False)
     return summary
-
-# wip note: document mouse org.mm.eg.db enrichment example
-
-# wip note: note environment.yml conda spec
-
-# wip note: add repo layout section in readme
-
-# wip note: implement laptop-memory note on full-genome megena
-
-# wip note: refactor megena install instructions in readme
-
-# wip note: document known-limitations section in readme

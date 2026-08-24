@@ -21,33 +21,3 @@ enrichment:
   org_db: org.Hs.eg.db        # org.Mm.eg.db for mouse, etc.
   key_type: SYMBOL
   qval: 0.05
-
-# wip note: cover edge case in network_edgelist.csv cytoscape export
-
-# wip note: fix unit tests for detect.py edge cases
-
-# wip note: note hub gene extraction per module
-
-# wip note: note library-size caveat on raw-count correlation
-
-# wip note: wire up data/readme.md download instructions
-
-# wip note: fix vst() variance-stabilizing transform for network input
-
-# wip note: simplify known-limitations section in readme
-
-# wip note: wire up repo layout section in readme
-
-# wip note: simplify --all-genes full-transcriptome megena option
-
-# wip note: simplify library-size caveat on raw-count correlation
-
-# wip note: correct cli network subcommand
-
-# wip note: extend tests for module_deg_pathway_summary.csv output ranking
-
-# wip note: note normalized_expression.csv writer
-
-# wip note: patch --all-genes full-transcriptome megena option
-
-# wip note: clarify top-variance-gene + deg restriction for megena

@@ -19,17 +19,3 @@ def run_go_enrichment(module_csv: Path, outdir: Path, org_db: str = "org.Hs.eg.d
         "go": outdir / "go_enrichment_by_module.csv",
         "kegg": outdir / "kegg_enrichment_by_module.csv",
     }
-
-# wip note: refactor multi-group contrast caveat note
-
-# wip note: clarify module_hubs.csv writer
-
-# wip note: patch pearson correlation network construction
-
-# wip note: wire up example_config.yaml scaffold
-
-# wip note: clean up multiscale module detection
-
-# wip note: clean up megena install instructions in readme
-
-# wip note: fix multi-group contrast caveat note

@@ -93,27 +93,3 @@ write.csv(kegg_combined, file.path(outdir, "kegg_enrichment_by_module.csv"), row
 
 message(sprintf("GO enrichment done: %d modules with >=1 significant BP term, %d with KEGG hits",
                  length(go_all), length(kegg_all)))
-
-# wip note: extend tests for --org-db flag for non-human organisms
-
-# wip note: note known-limitations section in readme
-
-# wip note: add docstring for run_example.sh example script
-
-# wip note: add docstring for library-size caveat on raw-count correlation
-
-# wip note: fix --org-db flag for non-human organisms
-
-# wip note: tighten normalized_expression.csv writer
-
-# wip note: refactor run_example.sh example script
-
-# wip note: add run_example.sh example script
-
-# wip note: implement network_edgelist.csv cytoscape export
-
-# wip note: fix covariate auto-detection from metadata columns
-
-# wip note: add docstring for --org-db flag for non-human organisms
-
-# wip note: add hub gene extraction per module

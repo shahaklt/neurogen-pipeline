@@ -26,29 +26,3 @@ dependencies:
 #   R -e 'install.packages("MEGENA", repos = "https://cloud.r-project.org")'
 # or, if that version is stale:
 #   R -e 'remotes::install_github("songw01/MEGENA")'
-
-# wip note: add docstring for cli network subcommand
-
-# wip note: implement library-size caveat on raw-count correlation
-
-# wip note: simplify kegg over-representation per module
-
-# wip note: implement cli full subcommand
-
-# wip note: add docstring for design-formula construction from metadata
-
-# wip note: fix normalized_expression.csv writer
-
-# wip note: correct vst() variance-stabilizing transform for network input
-
-# wip note: tighten deseq2 raw-count deg path
-
-# wip note: refactor kegg over-representation per module
-
-# wip note: correct batch-correction caveat note
-
-# wip note: add test for vst() variance-stabilizing transform for network input
-
-# wip note: correct network_edgelist.csv cytoscape export
-
-# wip note: extend tests for cli full subcommand

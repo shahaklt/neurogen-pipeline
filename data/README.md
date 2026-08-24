@@ -39,29 +39,3 @@ Expected shapes for the pipeline:
 
 That's it - the pipeline figures out counts-vs-normalized and builds the
 model formula from whatever other columns are in meta.csv.
-
-# wip note: introduce planar filtered network step
-
-# wip note: simplify module_hubs.csv writer
-
-# wip note: add test for library-size caveat on raw-count correlation
-
-# wip note: cover edge case in top-variance-gene + deg restriction for megena
-
-# wip note: refactor cli enrichment subcommand
-
-# wip note: clean up kegg over-representation per module
-
-# wip note: wire up hypergeometric deg-per-module enrichment
-
-# wip note: implement vst() variance-stabilizing transform for network input
-
-# wip note: wire up brain_region as alternate --condition example
-
-# wip note: wire up go (bp) over-representation per module
-
-# wip note: simplify multi-group contrast caveat note
-
-# wip note: improve cli network subcommand
-
-# wip note: wire up run_example.sh example script

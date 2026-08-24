@@ -85,27 +85,3 @@ write.csv(as.data.frame(vst_mat), file.path(outdir, "normalized_expression.csv")
 
 message(sprintf("DESeq2 done: %d genes tested, %d significant at padj < %.3f",
                  nrow(res_df), nrow(degs), alpha))
-
-# wip note: extend tests for design-formula construction from metadata
-
-# wip note: fix module_deg_pathway_summary.csv output ranking
-
-# wip note: add laptop-memory note on full-genome megena
-
-# wip note: introduce limma normalized-data deg path
-
-# wip note: wire up top-variance-gene + deg restriction for megena
-
-# wip note: extend tests for gse174409 counts matrix loader
-
-# wip note: tighten covariate auto-detection from metadata columns
-
-# wip note: extend tests for deg_results.csv / deg_significant.csv writers
-
-# wip note: cover edge case in module_membership.csv writer
-
-# wip note: refactor batch-correction caveat note
-
-# wip note: correct rscript subprocess runner in utils.py
-
-# wip note: extend tests for meta.csv sample-column validation
