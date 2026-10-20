@@ -28,9 +28,9 @@ gunzip data/GSE174409_counts.txt.gz
 
 Then build `meta.csv` from the GEO sample sheet (`sample`, `diagnosis`,
 `brain_region`, plus whatever covariates you want to control for - age,
-sex, PMI, RIN all show up in the series matrix). I mostly did this by hand
-in a spreadsheet the first time through, there's no script for it because
-every GEO series formats its sample table slightly differently.
+sex, PMI, RIN all show up in the series matrix). This step is manual: each
+GEO series formats its sample table differently, so the pipeline does not
+generate `meta.csv` automatically.
 
 Expected shapes for the pipeline:
 - `counts.csv`: genes (rows) x samples (cols), first column = gene symbol
