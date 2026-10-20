@@ -45,12 +45,10 @@ dataset. Point it at a different counts matrix and a different
 
 ## Why this exists
 
-I wanted to reanalyze a public opioid use disorder RNA-seq dataset for
-a research project and got tired of rewriting the same
-DESeq2 → network → enrichment glue code every time the input format
-changed slightly. So instead of one script, this is a small CLI that
-looks at whatever expression matrix you give it and picks the right
-analysis path itself.
+Reanalyzing public RNA-seq datasets required rewriting the same
+DESeq2 → network → enrichment workflow each time the input format changed.
+This project replaces that with a single CLI that inspects the expression
+matrix and selects the analysis path automatically.
 
 ## The dataset it was built around
 
@@ -162,26 +160,22 @@ via `Rscript`.
 
 ## Why it's set up this way
 
-The "adaptive" part is mostly in `pipeline/detect.py`. It's not fancy -
-it checks whether the values in your matrix are non-negative integers
-(raw counts → DESeq2) or not (assume it's already normalized → limma),
-and it pulls in whatever extra columns are in your metadata file as
-covariates in the model formula. That's enough to reuse this on a
-microarray dataset or someone else's RNA-seq counts without touching
-the R scripts, which is the whole point - I didn't want to hand-edit a
-design formula every time I pointed this at a different GEO series.
+The adaptive behavior lives in `pipeline/detect.py`. It checks whether the
+values in the matrix are non-negative integers (raw counts → DESeq2) or not
+(treated as already normalized → limma). It also adds any extra metadata
+columns as covariates in the model formula. This lets the same R scripts run
+on microarray data or other RNA-seq count matrices without editing the design
+formula for each GEO series.
 
 **MEGENA gets the DESeq2 `vst()`-transformed matrix, not raw counts.**
-Correlation on raw counts is dominated by library size effects - a
-mistake I made the first time I ran this, before spending an afternoon
-figuring out why every module looked like it was just "high expression
-genes."
+Correlation on raw counts is dominated by library-size effects, so every
+module reflects expression level rather than co-expression. Using the
+variance-stabilized matrix removes this confound.
 
 **By default MEGENA only runs on the top 3000 most-variable genes plus
-whatever came out of the DEG step, not everything.** The full-genome
-correlation matrix on ~20k genes made my laptop fall over the first
-time and mostly finds noise modules on a dataset with 40 samples
-anyway. Pass `--all-genes` if you actually want that.
+the DEGs, not the full transcriptome.** Correlation on ~20k genes is slow
+and, at this sample size (40 samples), mostly yields noise modules. Pass
+`--all-genes` to run on the full matrix.
 
 **GO/KEGG enrichment runs per module, not once over the whole DEG
 list.** A flat enrichment table over all DEGs tells you the dataset
@@ -235,11 +229,10 @@ for specifics - none of these are silently handled for you.
 
 ---
 
-## Known limitations / things I haven't gotten to
+## Known limitations
 
-- `config/example_config.yaml` isn't wired up yet - everything's still
-  CLI flags. Wanted a `--config file.yaml` option so I stop retyping
-  the same flags but haven't done it.
+- `config/example_config.yaml` is not wired up yet. All options are CLI
+  flags; a `--config file.yaml` option is planned.
 - No multi-group (>2 level) contrast handling beyond whatever
   DESeq2/limma do by default with the reference level - if your
   condition column has 3+ groups you'll want to specify contrasts
@@ -249,10 +242,10 @@ for specifics - none of these are silently handled for you.
   matrix.
 - No single-cell support. This assumes bulk (pseudo-bulked, if it's
   originally single-cell).
-- Only tested end to end on GSE174409. The DEG step has unit tests for
-  the detection logic; I haven't set up fixtures for the R side
-  (MEGENA in particular is slow enough that a CI run isn't really
-  practical on free-tier runners).
+- Only tested end to end on GSE174409.
+- Automated tests cover the Python layer only (`tests/`). The R scripts have
+  no automated tests. MEGENA is too slow for the free CI runners, so the
+  R side is checked by running the example script locally.
 
 ---
 
@@ -268,15 +261,25 @@ pipeline/          adaptive orchestration layer (python)
   utils.py          Rscript runner + module/DEG/pathway correlation
 R/                 the actual analysis code (DESeq2, limma, MEGENA, clusterProfiler)
 data/              not checked in, see data/README.md
-tests/             unit tests for the python detection logic
+tests/             unit tests for the Python layer (run by CI)
 examples/          example run script
 config/            documents the CLI's knobs; not wired up yet
 ```
 
 ---
 
+## Tests
+
+```bash
+pip install -r requirements.txt pytest
+pytest
+```
+
+GitHub Actions runs the same command on every push and pull request
+(`.github/workflows/tests.yml`).
+
+---
+
 ## License
 
-MIT. Use it, change it, ship it, cite it, fork it and never mention this
-repo again - no permission needed and no attribution expected beyond
-keeping the license file with the code.
+Released under the MIT License. See [LICENSE](LICENSE).

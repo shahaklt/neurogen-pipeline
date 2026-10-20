@@ -4,8 +4,8 @@ detect.py
 The "morphing" part of the pipeline: look at whatever expression matrix
 got handed to us and decide how it should be treated downstream, instead
 of making the user tell us. This is what lets one CLI handle raw RNA-seq
-counts, already-normalized microarray intensities, or god knows what else
-someone exports from a processing tool.
+counts, already-normalized microarray intensities, or other pre-processed
+matrices.
 
 Heuristics are deliberately simple and conservative - when in doubt we
 fall back to the safer/more general path (limma) rather than guessing
